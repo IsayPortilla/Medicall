@@ -86,6 +86,7 @@ class _LoginScreen extends State<LoginScreen> {
                       width: 350,
                       child: Card(
                         margin: const EdgeInsets.all(20),
+                        color: const Color.fromARGB(0, 0, 0, 0),
                         child: SingleChildScrollView(
                           child: Padding(
                             padding: const EdgeInsets.all(16),
@@ -202,7 +203,6 @@ class _LoginScreen extends State<LoginScreen> {
                             ),
                           ),
                         ),
-                        color: Color.fromARGB(0, 0, 0, 0),
                       ),
                     )
                   ],
@@ -228,6 +228,7 @@ class _LoginScreen extends State<LoginScreen> {
                       width: 350,
                       child: Card(
                         margin: const EdgeInsets.all(20),
+                        color: const Color.fromARGB(0, 0, 0, 0),
                         child: SingleChildScrollView(
                           child: Padding(
                             padding: const EdgeInsets.all(16),
@@ -344,7 +345,6 @@ class _LoginScreen extends State<LoginScreen> {
                             ),
                           ),
                         ),
-                        color: Color.fromARGB(0, 0, 0, 0),
                       ),
                     )
                   ],
